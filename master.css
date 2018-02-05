@@ -55,7 +55,17 @@
   padding: 20px 0px;
   background-color: #f6f6f6;
   font-size: 1.3em;
+}
 
+@media (max-width: 576px){
+  .drprater p{
+    display: none;
+
+  }
+}
+
+.card{
+  margin: 0 auto;
 }
 
 
