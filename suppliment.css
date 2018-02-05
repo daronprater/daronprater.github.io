@@ -74,16 +74,8 @@
 
 }
 
-.service-buttons{
-margin-top: -31px;
-opacity: .9;
-text-decoration: underline;
-background-color: #d5dbe5;
-color: blue;
-}
-hr{
-width: 200px;
-height: 5px;
+.container{
+  font-size: 1.3em;
 }
 
 
