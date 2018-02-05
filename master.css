@@ -30,6 +30,10 @@
 
   .serv{
     margin: 2px;
+    width: 100%;
+    font-style: italic;
+    font-weight: bold;
+    font-family: sans-serif;
   }
 
 .card-img-top{
@@ -55,6 +59,7 @@
   padding: 20px 0px;
   background-color: #f6f6f6;
   font-size: 1.3em;
+  align-items: center;
 }
 
 @media (max-width: 576px){
@@ -78,11 +83,12 @@ footer{
   color: white;
   background-color: #5E4485;
 }
-.fa{
-  padding: 20px;
-  font-size: 150px;
+.fab{
+  padding: 50px;
+  font-size: 50px;
   color: #FFF;
 }
+
 .fa:hover{
   color: #d5d5d5;
   text-decoration: none;
