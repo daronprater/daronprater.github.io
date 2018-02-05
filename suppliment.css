@@ -78,6 +78,11 @@
   font-size: 1.3em;
 }
 
+hr{
+width: 200px;
+height: 5px;
+}
+
 
 @media screen and (max-width: 570px){
 .jheader{
