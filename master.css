@@ -170,9 +170,7 @@ height: 5px;
   color: #0f135e;
 }
 
-.tel,.tel:visited { /*for small screens */
-display:block;
-color:#fff;
-padding:1em;
-text-decoration:none;
+.tel[href^="tel"]{
+  color: #fff;
+  text-decoration: none;
 }
