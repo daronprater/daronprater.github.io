@@ -64,6 +64,7 @@
 
 .contact{
   font-size: 1.3em;
+  color: #0f135e;
 }
 
 @media (max-width: 576px){
@@ -116,9 +117,20 @@ height: 5px;
   .jbutton{
     margin: auto;
   }
+    .navbar-brand{
+    display: none;
+  }
+
+   nav{
+     font-size: 1.5em;
+   }
+
 }
 }
 
+.navbar-toggler{
+  float: right;
+}
 .slideanim {visibility:hidden;}
 .slide {
   /* The name of the animation */
