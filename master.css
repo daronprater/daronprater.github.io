@@ -21,7 +21,6 @@
   }
   .navbar .navbar-collapse .nav-item .nav-link{
     color: #d5dbe5;
-    font-size: 1.1em;
   }
 
   .navbar .navbar-collapse .nav-item .nav-link:hover{
@@ -77,16 +76,11 @@
 .card{
   margin: 0 auto;
 }
-
-
-
-
-
 footer{
   width: 100%;
   padding: 1%;
-  color: white;
-  background-color: #5E4485;
+  color: #494f59;
+  background-color: #cfe0fc;
 }
 i{
   margin-right: 10px;
@@ -120,15 +114,7 @@ height: 5px;
   .jbutton{
     margin: auto;
   }
-    .navbar-brand{
-    display: none;
-  }
 
-   nav{
-     font-size: 1.5em;
-   }
-
-}
 }
 
 .navbar-toggler{
