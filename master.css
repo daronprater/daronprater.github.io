@@ -65,13 +65,6 @@
   color: #0f135e;
 }
 
-@media (max-width: 576px){
-  .drprater p{
-    display: none;
-
-  }
-}
-
 .card{
   margin: 0 auto;
 }
