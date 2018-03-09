@@ -93,6 +93,10 @@ hr{
 width: 200px;
 height: 5px;
 }
+@media (max-width: 768px){
+  .ci{
+    height: 400px;
+  }
 
 @media (max-width: 768px){
   .jheader{
