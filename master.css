@@ -120,6 +120,14 @@ height: 5px;
 .navbar-toggler{
   float: right;
 }
+@keyframes example {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+.jheader, .jbutton, .jdes {
+  animation-name: example;
+  animation-duration: 4s;
+}
 .slideanim {visibility:hidden;}
 .slide {
   /* The name of the animation */
@@ -157,9 +165,4 @@ height: 5px;
 
 .drprater{
   color: #0f135e;
-}
-
-.tel[href^="tel"]{
-  color: #fff;
-  text-decoration: none;
 }
