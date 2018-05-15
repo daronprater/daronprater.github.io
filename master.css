@@ -76,13 +76,15 @@ footer{
 }
 i{
   margin-right: 10px;
-  color: #FFF;
+}
+
+.fa-facebook, .fa-google{
+  color: blue;
 }
 
 .fa-yelp{
   color: red;
 }
-
 
 #map{
   width: 100%;
