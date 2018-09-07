@@ -1,19 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+/*------------ JUMBOTRON -------------*/
+
+/* Jumbotron image, image positioning, font-color */
 .jumbotron{
   background-image: url("GABP.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   color: white;
-
-
+  text-align: right;
   }
 
-  .navbar .navbar-brand{
+/*Jumbotron header, button animation control
+.jheader, .jbutton, .jdes {
+    animation-name: example;
+    animation-duration: 4s;
+  } */
+
+/* Controls size of jumbotron header when on cell phone */
+@media screen and (max-width: 570px){
+.jheader{
+    font-size: 2em;
+    text-align: center;
+
+  }
+  }
+
+/* Controls jumbotron button sizing on cell phone */
+@media screen and (max-width: 570px){
+.jbutton{
+  font-size: .75em;
+  text-align: center;
+  align-items: center;
+
+  }
+  }
+
+/* ----------- NAVBAR COLOR/STYLING ------------*/
+
+/* Navbvar font coloring */
+.navbar .navbar-brand{
       color: #d5dbe5;
   }
 
-  .container
-  .serv {
+/*Navbar text color when not hovering over - light gray */
+.navbar .navbar-collapse .nav-item .nav-link{
+      color: #d5dbe5;
+    }
+
+/* Navbar text color when hovering over - white. */
+.navbar .navbar-collapse .nav-item .nav-link:hover{
+      color: #ffffff
+    }
+
+/* ------------------- BLUE BOX CONTAINING ALL SERVICES ----------------------*/
+
+/* Styling for blue box with all services */
+.container .serv {
     background: blue;
     color: white;
     widows: 1000px;
@@ -21,43 +65,33 @@
     border: solid gray 5px;
   }
 
-  .serv a{
+/* controls font style for a elements in blue services box */
+.serv a{
     color: white;
     text-decoration: none;
+    font-family: 'Lato';
   }
 
-  .serv h3{
+/*Controls header features in services blue box */
+.serv h3{
     text-align: center;
   }
 
 
 
-
-  .navbar .navbar-collapse .nav-item .nav-link{
-    color: #d5dbe5;
-  }
-
-  .navbar .navbar-collapse .nav-item .nav-link:hover{
-    color: #ffffff
-  }
-
-
-  .nonmain{
-    background-image: url("robert-conklin-327760.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    color: white;
-  }
-
+/* Not sure */
 .card-img-top{
   height: 300px;
-
   }
+
+/* not sure */
 .about{
   text-align: center;
   margin-top: 40px;
   }
+
+
+/*Not sure */
 .person {
   border: 10px solid transparent;
   margin-bottom: 25px;
@@ -65,43 +99,39 @@
   height: 40%;
   opacity: 1;
 }
+
+/*Not Sure */
 .person:hover {
   border-color: #2d74e5;
 }
 
+/*Not sure */
 .drprater{
   padding: 60px 50px;
   background-color: #f6f6f6;
 
 }
 
+/*Font size for service page descriptions */
 .container{
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
+/* Sizing of blue page breaks */
 hr{
 width: 200px;
 height: 5px;
 }
 
-
-@media screen and (max-width: 570px){
-.jheader{
-  font-size: 2em;
-  text-align: center;
-
-}
+/* Paragraph font for services pages */
+body {
+  font-family: 'Lato';
 }
 
-@media screen and (max-width: 570px){
-.jbutton{
-font-size: .75em;
-text-align: center;
-align-items: center;
 
-}
-}
 
+
+/* Not sure */
 @media screen and (max-width: 570px){
 #drprater{
 text-align: center;
@@ -110,16 +140,17 @@ padding: 0px;
 }
 }
 
+/* ------------- ANIMATIONS -----------*/
+
+/* Fade in animation "example" */
 @keyframes example {
   from {opacity: 0;}
   to {opacity: 1;}
 }
 
-.jheader, .jbutton, .jdes {
-  animation-name: example;
-  animation-duration: 4s;
-}
 
+
+/* Slide animation */
 .slideanim {visibility:hidden;}
 .slide {
   /* The name of the animation */
@@ -152,9 +183,4 @@ padding: 0px;
       opacity: 1;
       -webkit-transform: translateY(0%);
   }
-}
-
-
-.financial{
-  color: #0f135e;
 }
