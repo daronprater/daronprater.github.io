@@ -139,7 +139,7 @@ height: 5px;
 }
 .jheader, .jbutton, .jdes {
   animation-name: example;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 .slideanim {visibility:hidden;}
 .slide {
