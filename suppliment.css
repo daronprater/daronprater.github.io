@@ -4,7 +4,7 @@
 
 /* Jumbotron image, image positioning, font-color */
 .jumbotron{
-  background-image: url("GABP.jpg");
+  background-image: url("brian-webb-230153-unsplash.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -39,15 +39,18 @@
 
 /* ----------- NAVBAR COLOR/STYLING ------------*/
 
+.navbar{
+  background-color: #cfe0fc;
+}
 /* Navbvar font coloring */
 .navbar .navbar-brand{
-      color: #d5dbe5;
-  }
+    color: #494f59;
+}
 
 /*Navbar text color when not hovering over - light gray */
 .navbar .navbar-collapse .nav-item .nav-link{
-      color: #d5dbe5;
-    }
+  color: #494f59;
+}
 
 /* Navbar text color when hovering over - white. */
 .navbar .navbar-collapse .nav-item .nav-link:hover{
@@ -58,8 +61,7 @@
 
 /* Styling for blue box with all services */
 .container .serv {
-    background: blue;
-    color: white;
+    background-color: #cfe0fc;
     widows: 1000px;
     border-radius: 20px;
     border: solid gray 5px;
@@ -67,7 +69,7 @@
 
 /* controls font style for a elements in blue services box */
 .serv a{
-    color: white;
+    color: #494f59;
     text-decoration: none;
     font-family: 'Lato';
   }
@@ -183,4 +185,27 @@ padding: 0px;
       opacity: 1;
       -webkit-transform: translateY(0%);
   }
+}
+
+.fa:hover{
+  color: #d5d5d5;
+  text-decoration: none;
+}
+
+footer{
+  width: 100%;
+  padding: 1%;
+  color: #494f59;
+  background-color: #cfe0fc;
+}
+i{
+  margin-right: 10px;
+}
+
+.fa-facebook, .fa-google{
+  color: blue;
+}
+
+.fa-yelp{
+  color: red;
 }
