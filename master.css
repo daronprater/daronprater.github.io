@@ -148,6 +148,11 @@ height: 5px;
   }
 
 }
+@media (max-width: 1200px){
+  .kad-jumbo{
+    text-align: center;
+  }
+}
 
 .navbar-toggler{
   float: right;
