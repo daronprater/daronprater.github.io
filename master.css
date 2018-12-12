@@ -143,6 +143,10 @@ height: 5px;
   .jbutton{
     margin: auto;
   }
+  .kad{
+    font-size: 2em;
+  }
+
 }
 
 .navbar-toggler{
