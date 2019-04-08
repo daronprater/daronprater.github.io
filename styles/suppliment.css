@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+/*------------ JUMBOTRON -------------*/
+
+/* Jumbotron image, image positioning, font-color */
+.jumbotron{
+  background-image: url("../images/brian-webb-230153-unsplash_opt.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: right;
+  }
+
+/*Jumbotron header, button animation control
+.jheader, .jbutton, .jdes {
+    animation-name: example;
+    animation-duration: 4s;
+  } */
+
+/* Controls size of jumbotron header when on cell phone */
+@media screen and (max-width: 570px){
+.jheader{
+    font-size: 2em;
+    text-align: center;
+
+  }
+  }
+
+/* Controls jumbotron button sizing on cell phone */
+@media screen and (max-width: 570px){
+.jbutton{
+  font-size: .75em;
+  text-align: center;
+  align-items: center;
+
+  }
+  }
+
+/* ----------- NAVBAR COLOR/STYLING ------------*/
+
+.navbar{
+  background-color: #cfe0fc;
+}
+/* Navbvar font coloring */
+.navbar .navbar-brand{
+    color: #494f59;
+}
+
+/*Navbar text color when not hovering over - light gray */
+.navbar .navbar-collapse .nav-item .nav-link{
+  color: #494f59;
+}
+
+/* Navbar text color when hovering over - white. */
+.navbar .navbar-collapse .nav-item .nav-link:hover{
+      color: #ffffff
+    }
+
+/* ------------------- BLUE BOX CONTAINING ALL SERVICES ----------------------*/
+
+/* Styling for blue box with all services */
+.container .serv {
+    background-color: #cfe0fc;
+    widows: 1000px;
+    border-radius: 20px;
+    border: solid gray 5px;
+  }
+
+/* controls font style for a elements in blue services box */
+.serv a{
+    color: #494f59;
+    text-decoration: none;
+    font-family: 'Lato';
+  }
+
+/*Controls header features in services blue box */
+.serv h3{
+    text-align: center;
+  }
+
+
+
+/* Not sure */
+.card-img-top{
+  height: 300px;
+  }
+
+/* not sure */
+.about{
+  text-align: center;
+  margin-top: 40px;
+  }
+
+
+/*Not sure */
+.person {
+  border: 10px solid transparent;
+  margin-bottom: 25px;
+  width: 80%;
+  height: 40%;
+  opacity: 1;
+}
+
+/*Not Sure */
+.person:hover {
+  border-color: #2d74e5;
+}
+
+/*Not sure */
+.drprater{
+  padding: 60px 50px;
+  background-color: #f6f6f6;
+
+}
+
+/*Font size for service page descriptions */
+.container{
+  font-size: 1.2em;
+}
+
+/* Sizing of blue page breaks */
+hr{
+width: 200px;
+height: 5px;
+background-color: #cfe0fc;
+}
+
+/* Paragraph font for services pages */
+body {
+  font-family: 'Lato';
+}
+
+
+
+
+/* Not sure */
+@media screen and (max-width: 570px){
+#drprater{
+text-align: center;
+padding: 0px;
+
+}
+}
+
+/* ------------- ANIMATIONS -----------*/
+
+/* Fade in animation "example" */
+@keyframes example {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
+
+/* Slide animation */
+.slideanim {visibility:hidden;}
+.slide {
+  /* The name of the animation */
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  /* The duration of the animation */
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  /* Make the element visible */
+  visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+  0% {
+      opacity: 0;
+      transform: translateY(10%);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+  }
+  100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+  }
+}
+
+.fa:hover{
+  color: #d5d5d5;
+  text-decoration: none;
+}
+
+footer{
+  width: 100%;
+  padding: 1%;
+  color: #494f59;
+  background-color: #cfe0fc;
+}
+i{
+  margin-right: 10px;
+}
+
+.fa-facebook, .fa-google{
+  color: blue;
+}
+
+.fa-yelp{
+  color: red;
+}
