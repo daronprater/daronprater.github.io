@@ -2,7 +2,7 @@
 
 
 .open{
-  background-image: url("../images/brian-webb-230153-unsplash_opt.jpg");
+  background-image: url("../images/cincy_skyline.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -10,7 +10,7 @@
   color: white;
   padding-top: 300px;
   padding-bottom: 100px;
-  font-family: 'Lato';
+  font-family: 'Crimson Text', serif;
 
   }
 
@@ -24,19 +24,65 @@
     font-size: 1.3em;
   }
 
+  .vertical{
+    border:         none;
+    border-left:    10px solid #E3E08A;
+    height:         20vh;
+    width:          10px;
+    padding-right: 1000px;
+
+  }
+
+
+/*LINES ON SIDE OF HEADINGS FOR WHITE HEADINGS*/
+.Lines-On-Side-Office {
+  position: relative;
+  z-index: .25;
+  overflow: hidden;
+  text-align: center;
+}
+.Lines-On-Side-Office:before, .Lines-On-Side-Office:after {
+  position: absolute;
+  top: 51%;
+  overflow: hidden;
+  width: 10%;
+  height: 1px;
+  content: '\a0';
+  background-color: #E3E08A;
+}
+.Lines-On-Side-Office:before {
+  margin-left: -10%;
+  text-align: right;
+}
+
+  .officepic{
+    background-image: url("../images/waiting Room-original.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .schedule{
+    background-color: #375173;
+    color: #ffffff;
+  }
+
+  .separator{
+    background-color: #E3E08A;
+  }
 
   .navbar{
-    background-color: #cfe0fc;
+    background-color: #375173;
   }
   .navbar .navbar-brand{
-
+    color: #ffffff;
   }
   .navbar .navbar-collapse .nav-item .nav-link{
-    color: #494f59;
+    color: #ffffff;
   }
 
-  .navbar .navbar-collapse .nav-item .nav-link:hover{
-    color: #ffffff
+  .navbar-collapse .nav-item .nav-link:hover{
+    color: #E3E08A;
   }
 
   .serv{
@@ -47,7 +93,7 @@
     font-family: sans-serif;
   }
 p{
-    font-family: 'Lato';
+    font-family: 'Crimson Text', serif;
   }
 
 .card-img-top{
@@ -71,7 +117,7 @@ p{
 
 .drprater{
   padding: 20px 0px;
-  background-color: #f6f6f6;
+  background-color: #ffffff;
   font-size: 1.3em;
   align-items: center;
 }
@@ -87,8 +133,9 @@ p{
 footer{
   width: 100%;
   padding: 1%;
-  color: #494f59;
-  background-color: #cfe0fc;
+  color: #E3E08A;
+  /*color: #ffffff;*/
+  background-color: #375173;
 }
 i{
   margin-right: 10px;
@@ -144,15 +191,22 @@ height: 5px;
   }
   .kad{
     font-size: 2em;
+    font-family: 'Crimson Text', serif;
   }
 
 }
 @media (max-width: 1200px){
   .kad-jumbo{
     text-align: center;
+    font-family: 'Crimson Text', serif;
   }
 }
 
+@media (max-width: 600){
+  .carousel-inner{
+    visibility: hidden;
+  }
+}
 .navbar-toggler{
   float: right;
 }

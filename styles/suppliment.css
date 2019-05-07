@@ -1,15 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
 
+
+
+
 /*------------ JUMBOTRON -------------*/
 
 /* Jumbotron image, image positioning, font-color */
 .jumbotron{
-  background-image: url("../images/brian-webb-230153-unsplash_opt.jpg");
+  background-image: url("../images/cincy_skyline.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   color: white;
   text-align: right;
+  font-family: 'Crimson Text', serif;
   }
 
 /*Jumbotron header, button animation control
@@ -39,44 +43,58 @@
 
 /* ----------- NAVBAR COLOR/STYLING ------------*/
 
+.schedule{
+  background-color: #375173;
+  color: #ffffff;
+}
+
+.schedule:hover{
+  color: #E3E08A;
+}
+
+.separator{
+  background-color: #E3E08A;
+}
+
 .navbar{
-  background-color: #cfe0fc;
+  background-color: #375173;
 }
-/* Navbvar font coloring */
 .navbar .navbar-brand{
-    color: #494f59;
+  color: #ffffff;
 }
-
-/*Navbar text color when not hovering over - light gray */
 .navbar .navbar-collapse .nav-item .nav-link{
-  color: #494f59;
+  color: #ffffff;
 }
 
-/* Navbar text color when hovering over - white. */
-.navbar .navbar-collapse .nav-item .nav-link:hover{
-      color: #ffffff
-    }
+.navbar-collapse .nav-item .nav-link:hover{
+  color: #E3E08A;
+}
 
 /* ------------------- BLUE BOX CONTAINING ALL SERVICES ----------------------*/
 
 /* Styling for blue box with all services */
 .container .serv {
-    background-color: #cfe0fc;
+    background-color: #375173;
     widows: 1000px;
     border-radius: 20px;
-    border: solid gray 5px;
+    border: solid #E3E08A 5px;
   }
 
 /* controls font style for a elements in blue services box */
 .serv a{
-    color: #494f59;
+    color: #ffffff;
     text-decoration: none;
-    font-family: 'Lato';
+    font-family: 'Crimson Text', serif;
+  }
+
+  .serv a:hover{
+    color: #E3E08A;
   }
 
 /*Controls header features in services blue box */
 .serv h3{
     text-align: center;
+    color: #ffffff;
   }
 
 
@@ -110,7 +128,7 @@
 /*Not sure */
 .drprater{
   padding: 60px 50px;
-  background-color: #f6f6f6;
+  background-color: #ffffff;
 
 }
 
@@ -128,7 +146,25 @@ background-color: #cfe0fc;
 
 /* Paragraph font for services pages */
 body {
-  font-family: 'Lato';
+  font-family: 'Crimson Text', serif;
+  color: #0f135e;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+.page-info li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #E3E08A; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.separator{
+  background-color: #E3E08A;
 }
 
 
@@ -193,12 +229,7 @@ padding: 0px;
   text-decoration: none;
 }
 
-footer{
-  width: 100%;
-  padding: 1%;
-  color: #494f59;
-  background-color: #cfe0fc;
-}
+
 i{
   margin-right: 10px;
 }
@@ -209,4 +240,16 @@ i{
 
 .fa-yelp{
   color: red;
+}
+
+.page-info{
+  color: #0f135e;
+}
+
+footer{
+  width: 100%;
+  padding: 1%;
+  color: #E3E08A;
+  /*color: #ffffff;*/
+  background-color: #375173;
 }
