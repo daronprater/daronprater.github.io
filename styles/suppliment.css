@@ -36,12 +36,7 @@
   }
   }
 
-  .servicesXrayImage{
-    background-image: url("../images/x-ray.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
+
 
 /* Controls jumbotron button sizing on cell phone */
 /* @media screen and (max-width: 570px){
