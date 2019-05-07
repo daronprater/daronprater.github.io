@@ -8,3 +8,6 @@ $(window).scroll(function() {
     }
   });
 });
+
+var left = $(".lefttoright").offset().left;
+$(".lefttoright").css({left:left}).animate({"left":"0px"}, "slow");

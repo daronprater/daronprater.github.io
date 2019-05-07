@@ -12,8 +12,9 @@
   background-position: center;
   background-size: cover;
   color: white;
-  text-align: right;
+  text-align: center;
   font-family: 'Crimson Text', serif;
+  margin-top: 50px;
   }
 
 /*Jumbotron header, button animation control
@@ -29,17 +30,26 @@
     text-align: center;
 
   }
+  .jbutton{
+    font-size: 0.75em;
+    text-align: center;
+  }
+  }
+
+  .servicesXrayImage{
+    background-image: url("../images/x-ray.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 
 /* Controls jumbotron button sizing on cell phone */
-@media screen and (max-width: 570px){
+/* @media screen and (max-width: 570px){
 .jbutton{
   font-size: .75em;
   text-align: center;
-  align-items: center;
-
   }
-  }
+  } */
 
 /* ----------- NAVBAR COLOR/STYLING ------------*/
 
