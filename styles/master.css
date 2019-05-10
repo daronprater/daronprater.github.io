@@ -66,6 +66,10 @@
     color: #ffffff;
   }
 
+  .schedule:hover{
+    color: #E3E08A;
+  }
+
   .separator{
     background-color: #E3E08A;
   }

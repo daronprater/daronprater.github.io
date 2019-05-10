@@ -46,6 +46,26 @@
   }
   } */
 
+  .Lines-On-Side-Office {
+    position: relative;
+    z-index: .25;
+    overflow: hidden;
+    text-align: center;
+  }
+  .Lines-On-Side-Office:before, .Lines-On-Side-Office:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 10%;
+    height: 1px;
+    content: '\a0';
+    background-color: #ffffff;
+  }
+  .Lines-On-Side-Office:before {
+    margin-left: -10%;
+    text-align: right;
+  }
+
 /* ----------- NAVBAR COLOR/STYLING ------------*/
 
 .schedule{
