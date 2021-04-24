@@ -13,6 +13,8 @@
   font-family: 'Crimson Text', serif;
   }
 
+
+
   .reviews{
     background-image: url("../images/Tooth-filter_opt.jpg");
     background-repeat: no-repeat;
@@ -95,6 +97,31 @@
     font-weight: bold;
     font-family: sans-serif;
   }
+
+  .serv2 a{
+    color: #375173;
+    text-decoration: none;
+    font-family: 'Crimson Text', serif;
+  }
+
+  .serv2 a:hover{
+    color: #E3E08A;
+  }
+
+  .serv2{
+    text-align: center;
+  }
+
+  .serv2 > ul {
+    display: inline-block;
+    text-align: left;
+  }
+
+ 
+
+
+
+
 p{
     font-family: 'Crimson Text', serif;
   }
