@@ -97,13 +97,11 @@
     width: 100%;
     font-style: italic;
     font-weight: bold;
-    font-family: sans-serif;
   }
 
   .serv2 a{
     color: #375173;
     text-decoration: none;
-    font-family: 'Crimson Text', serif;
   }
 
   .serv2 a:hover{
@@ -123,10 +121,6 @@
 
 
 
-
-p{
-    font-family: 'Crimson Text', serif;
-  }
 
 .card-img-top{
   height: 300px;
