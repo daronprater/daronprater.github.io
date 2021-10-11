@@ -11,7 +11,6 @@
   background-size: cover;
   color: white;
   text-align: center;
-  font-family: 'Crimson Text', serif;
   margin-top: 50px;
   }
 
@@ -107,7 +106,6 @@
 .serv a{
     color: #ffffff;
     text-decoration: none;
-    font-family: 'Crimson Text', serif;
   }
 
   .serv a:hover{
@@ -169,22 +167,10 @@ background-color: #cfe0fc;
 
 /* Paragraph font for services pages */
 body {
-  font-family: 'Crimson Text', serif;
   color: #0f135e;
 }
 
-ul {
-  list-style: none; /* Remove default bullets */
-}
 
-.page-info li::before {
-  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #E3E08A; /* Change the color */
-  font-weight: bold; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: -1em; /* Also needed for space (tweak if needed) */
-}
 
 .separator{
   background-color: #E3E08A;
@@ -265,9 +251,6 @@ i{
   color: red;
 }
 
-.page-info{
-  color: #0f135e;
-}
 
 footer{
   width: 100%;
@@ -275,4 +258,26 @@ footer{
   color: #E3E08A;
   /*color: #ffffff;*/
   background-color: #375173;
+}
+
+.btn{
+  background-color: transparent;
+  color: #0f135e;
+
+}
+
+.accordion .card-header:after {
+  font-family: 'FontAwesome';  
+  content: "\f068";
+  float: right; 
+}
+.accordion .card-header.collapsed:after {
+  /* symbol for "collapsed" panels */
+  content: "\f067"; 
+}
+
+
+.card-header.collapsed::after  {
+  /* symbol for "collapsed" panels */
+  content: "\f067"; 
 }
