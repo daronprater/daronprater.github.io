@@ -2,12 +2,12 @@
 
 
 .open{
-  background-image: url("../images/rafik-wahba-yzC9vZoSHH0-unsplash.jpg");
+  background-image: url("../images/cincy.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin: auto;
-  color: white;
+  color: white; 
   padding-top: 300px;
   padding-bottom: 100px;
   font-family: 'Crimson Text', serif;
@@ -15,6 +15,7 @@
 
   .learnmore{
     text-align: center;
+    color:#375173;
   }
 
   .reviews{

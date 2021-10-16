@@ -260,11 +260,6 @@ footer{
   background-color: #375173;
 }
 
-.btn{
-  background-color: transparent;
-  color: #0f135e;
-
-}
 
 .accordion .card-header:after {
   font-family: 'FontAwesome';  
