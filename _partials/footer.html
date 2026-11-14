@@ -25,6 +25,8 @@
           <li><a href="general.html">General &amp; Cosmetic</a></li>
           <li><a href="implant.html">Implants &amp; Surgical</a></li>
           <li><a href="patient_info.html">Insurance &amp; Forms</a></li>
+          <li data-link="booking" hidden><a href="#">Book online</a></li>
+          <li data-link="payment" hidden><a href="#">Pay your bill</a></li>
           <li><a href="office_tour.html">Office Tour</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -58,7 +60,8 @@
 
 <div class="call-bar">
   <a href="tel:+15137933722"><svg aria-hidden="true"><use href="#i-phone"/></svg>Call now</a>
-  <a href="https://www.google.com/maps/dir/?api=1&amp;destination=8040+Hosbrook+Rd+Suite+230+Cincinnati+OH+45236" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-pin"/></svg>Directions</a>
+  <a data-link="booking" href="#" hidden><svg aria-hidden="true"><use href="#i-calendar"/></svg>Book online</a>
+  <a href="https://www.google.com/maps/dir/?api=1&amp;destination=8040+Hosbrook+Rd+Suite+230+Cincinnati+OH+45236" target="_blank" rel="noopener" data-unless="booking"><svg aria-hidden="true"><use href="#i-pin"/></svg>Directions</a>
 </div>
 </body>
 </html>

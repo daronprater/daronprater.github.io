@@ -33,3 +33,21 @@ sips -Z 1400 -s formatOptions 70 photo.jpg --out photo-1400.jpg
 ```
 
 `bash build.sh` adds the `srcset` automatically for any `<img src="assets/img/NAME.jpg">` you write.
+
+## Turning on online booking and bill pay
+
+The site has "Book online" and "Pay your bill" buttons built in (header, top bar, home page,
+every call-to-action, contact page, phone call bar, footer, and the Patient Info payment panel).
+They stay hidden until their links are filled in.
+
+1. Open `assets/js/main.js` and find `var LINKS` near the top.
+2. Paste the links from the office's services between the quotes:
+   ```js
+   var LINKS = {
+     booking: "https://...",  // online scheduling link from the booking service
+     payment: "https://..."   // secure pay-your-bill page from the payment processor
+   };
+   ```
+3. Commit and push. No rebuild needed. Leave a link as `""` to keep those buttons hidden.
+
+Use the vendor's hosted booking/payment pages. Never put a card form directly on this site.

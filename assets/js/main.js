@@ -3,6 +3,27 @@
   "use strict";
   document.documentElement.classList.remove("no-js");
 
+  /* ---- Online booking & bill pay ------------------------------------
+     Paste the links from the office's booking service and payment processor
+     here, no rebuild needed.
+     Every "Book online" / "Pay your bill" button on the site turns on as soon
+     as its link is filled in. Leave a link empty ("") to keep those hidden. */
+  var LINKS = {
+    booking: "",  // e.g. the online scheduling link from the booking service
+    payment: ""   // e.g. the secure "pay your bill" page from the payment processor
+  };
+  document.querySelectorAll("[data-link]").forEach(function (el) {
+    var url = LINKS[el.getAttribute("data-link")];
+    if (!url) return;
+    var a = el.tagName === "A" ? el : el.querySelector("a");
+    if (a) { a.href = url; a.target = "_blank"; a.rel = "noopener"; }
+    el.hidden = false;
+  });
+  // Elements that should step aside once a link is live (e.g. "Directions" in the phone bar)
+  document.querySelectorAll("[data-unless]").forEach(function (el) {
+    if (LINKS[el.getAttribute("data-unless")]) el.hidden = true;
+  });
+
   /* ---- Office hours (Eastern time). Edit here if hours change. ---------- */
   // [openHour, closeHour] in 24h time, or null when closed. Index 0 = Sunday.
   var HOURS = [null, [8, 18], [8, 16], [8, 16], [8, 18], [8, 13], null];
