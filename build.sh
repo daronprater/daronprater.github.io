@@ -17,6 +17,8 @@ build() {
     cat "_pages/$file"
     cat _partials/footer.html
   } > "$file"
+  # give every photo responsive sizes (skips images that already have a srcset)
+  perl -pi -e 's{<img src="assets/img/([a-z0-9-]+)\.jpg"(?![^>]*srcset)}{qq{<img src="assets/img/$1.jpg" srcset="assets/img/$1-800.jpg 800w, assets/img/$1-1400.jpg 1400w" sizes="(max-width: 760px) 100vw, 50vw"}}ge' "$file"
   echo "built $file"
 }
 
@@ -32,3 +34,11 @@ build office_tour.html  tour     "Office Tour | Kenwood Advanced Dentistry" \
   "Take a look inside our modern Kenwood dental office at 8040 Hosbrook Road, across from the Kenwood Tower on I-71."
 build contact.html      contact  "Contact and Directions | Kenwood Advanced Dentistry" \
   "Call (513) 793-3722 or visit us at 8040 Hosbrook Road, Suite 230, Cincinnati, OH 45236. Office hours, map and directions."
+build 404.html          none     "Page Not Found | Kenwood Advanced Dentistry" \
+  "The page you're looking for has moved. Visit Kenwood Advanced Dentistry's home page or call (513) 793-3722."
+# GitHub Pages serves 404.html at any URL depth, so make its links root-relative
+# and keep it out of search results.
+sed -i.bak -E \
+  -e 's#(href|src)="(assets/|index\.html|general\.html|implant\.html|patient_info\.html|office_tour\.html|contact\.html)#\1="/\2#g' \
+  -e 's#<meta name="theme-color"#<meta name="robots" content="noindex">\n  <meta name="theme-color"#' \
+  404.html && rm -f 404.html.bak

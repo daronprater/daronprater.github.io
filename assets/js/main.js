@@ -74,6 +74,7 @@
       if (header) document.documentElement.style.setProperty("--nav-top", Math.max(0, header.getBoundingClientRect().bottom) + "px");
       var open = document.body.classList.toggle("menu-open");
       toggle.setAttribute("aria-expanded", open ? "true" : "false");
+      toggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
     });
     document.querySelectorAll(".nav a").forEach(function (a) {
       a.addEventListener("click", function () {
@@ -146,7 +147,7 @@
       idx = (i + items.length) % items.length;
       var el = items[idx];
       var src = el.querySelector("img");
-      img.src = src.currentSrc || src.src;
+      img.src = src.src; // full-size original, not the smaller srcset pick
       img.alt = src.alt;
       cap.textContent = el.getAttribute("data-caption") || src.alt;
     }
