@@ -1,161 +1,464 @@
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=dev ice-width, initial-scale=1">
-    <title>Kenwood Advanced</title>
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-      <script src='scripts/kenwood_advanced.js'></script>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <link rel="stylesheet" href="styles/master.css">
-      <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" el="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-      <script
-        src="https://code.jquery.com/jquery-3.3.1.js"
-          integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-            crossorigin="anonymous">
-      </script>
-      <script src="scripts/load_elements.js">
-      </script>
-  </head>
-  <body>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kenwood Advanced Dentistry | Cincinnati Implant, Cosmetic and Family Dentist</title>
+  <meta name="description" content="Dr. Michael Prater offers general, cosmetic and implant dentistry in Kenwood, Cincinnati. Crowns, veneers, whitening, Botox and more. Call (513) 793-3722.">
+  <link rel="canonical" href="https://www.kenwoodadvanceddentistry.com/">
+  <meta name="theme-color" content="#f7f4ef">
 
-    <div id="navigation"></div>
-    <div class="jumbotron jumbotron-fluid open">
-      <div class="container">
-        <div class="welcome">
-          <h1 class="jheader display-3 font-weight-bold kad-jumbo" style="text-align: center;"><em><span class="align-middle">Kenwood Advanced Dentistry</span></em></h1>
-  		    <hr class="my-4 separator">
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-        </div>
-      </div>
-    </div>
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Kenwood Advanced Dentistry">
+  <meta property="og:title" content="Kenwood Advanced Dentistry | Cincinnati Implant, Cosmetic and Family Dentist">
+  <meta property="og:description" content="Dr. Michael Prater offers general, cosmetic and implant dentistry in Kenwood, Cincinnati. Crowns, veneers, whitening, Botox and more. Call (513) 793-3722.">
+  <meta property="og:url" content="https://www.kenwoodadvanceddentistry.com/">
+  <meta property="og:image" content="https://www.kenwoodadvanceddentistry.com/assets/img/waiting-room.jpg">
+  <meta name="twitter:card" content="summary_large_image">
 
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%231d4b47'/%3E%3Cpath d='M23 17c-4.4 0-8 3.6-8 9 0 4 1.4 7 2.6 10.4 1.2 3.6 1.4 7.6 2.4 11.6.8 3.2 2 5 3.8 5 2.6 0 3-4 3.8-7.6.6-2.6 1.6-4.4 3.4-4.4s2.8 1.8 3.4 4.4C35.2 49 35.6 53 38.2 53c1.8 0 3-1.8 3.8-5 1-4 1.2-8 2.4-11.6C45.6 33 47 30 47 26c0-5.4-3.6-9-8-9-3.6 0-5.6 2-9 2s-5.4-2-7-2z' fill='%23fff'/%3E%3C/svg%3E">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Manrope:wght@400..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/main.js" defer></script>
 
-
-  <div class="drprater">
-    <div class="container">
-          <h2 class="slideanim text-center display-4 kad">Welcome to Kenwood <em>Advanced</em> Dentistry</h2>
-          <hr class="my-4 separator">
-          <div class="row">
-            <div class="col-sm-6 col-12">
-              <p>Practicing in Kenwood for over 20 years, Dr. Michael Prater and his staff are committed
-                to providing you with the highest quality dental care in Cincinnati.
-                He enjoys caring for his patients health and developing long-term relationships that allow him
-                to provide exceptional, individualized care.</p>
-            </div>
-            <div class="col-sm-6 col-12">
-              <p>Dr. Prater and his staff perform a wide variety of dental services including
-                implant placement, cosmetic restorations, and facial esthetics.
-              He is also certified by the American Academy of Facial Esthetics to administer botox and Dermal
-              Filler treatments.</p>
-            </div>
-          </div>
-        </div>
-        <br><br>
-
-
-
-          <div class="jumbotron jumbotron-fluid officepic">
-            <br><br><br><br>
-            <div class="container">
-            <h2 class="slideanim text-center display-4 lines-On-Side-Office" style="color: white;">Office Tour</h2>
-            <p class="text-center office-tour" style="color: white; padding-left: 50px; padding-right: 50px;">Our office is located across from the
-            Kenwood Tower on I71. Feel free to take our virtual office tour by clicking the
-            button below.</p>
-            </div>
-            <br><br><br><br><br>
-
-            <p class="lead text-center">
-    				  <a class="jbutton btn btn-lg text-center schedule" target="_blank" href="office_tour.html" role="button" target="_blank">Office Tour</a>
-    			  </p>
-            <br>
-          </div>
-
-          <br>
-            <div class='container'>
-
-              <h2 class="slideanim text-center display-4">Implant Dentistry</h2>
-            <hr class="my-4 separator">
-            <div class="text-center">
-            <img src="images/dental-implant.png" alt="" class="slideanim"><br>
-            </div>
-            <p>
-              Whether it's a dental emergency or you're looking for a more effective dental solution,
-              implant dentistry may be the right option for you.
-              At Kenwood Advanced Dentistry, our team offers advanced implant dentistry services 
-              right here in our Kenwood office.
-            </p>
-            <p class="lead text-center">
-    				  <a class="jbutton btn btn-lg text-center schedule" target="_blank" href="implant.html" role="button" target="_blank">Learn More</a>
-    			  </p>
-          </div>
-
-
-          <br>
-          <br>
-        </div>
-        </div>
-        <div class="jumbotron jumbotron-fluid reviews">
-          <div class="container">
-            <div class="welcome">
-              <h2 class="slideanim text-center display-4 lines-On-Side-Office" style="color: white;">Patient Reviews</h2>
-              <br>
-              <br>
-              <br>
-              <br>
-              <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="10000" pause="hover">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <p>"I was very pleased with my first teeth cleaning...great atmosphere, and excellent service. If you are looking for a Dentist in the Kenwood area....I highly recommend!"  <strong>-Scott R.</strong></p>
-                  </div>
-                  <div class="carousel-item">
-                    <p>"I have had a significant amount of dental work over my lifetime due to a childhood accident, and Dr. Prater is the best dentist I have ever had and is true artist in blending my crowns to the rest of my teeth"  <strong>- Russell M.</strong></p>
-                  </div>
-                  <div class="carousel-item">
-                    <p>"Professional, highly knowledgeable, experienced and congenial. The best dentist I have ever had among the 7 I have had."  <strong>-Michael J.</strong></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <br>
-          <br>
-          <br>
-          <br>
-
-        </div>
-        <br><br>
-
-
-    <div class="container">
-    <div class="Contact">
-      <h2 class="display-4 text-center slideanim"><em>Contact us Today!</em></h2>
-      <hr class="my-4 separator">
-      <p>The first step towards a beautiful, healthy smile is to schedule an appointment.
-      Please contact our office by phone to schedule an appointment.</p><br>
-      </div>
-      <br><br>
-      <h2><em>Find us on Google Maps!</em></h2>
-      <iframe width = '100%' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3091.660128623579!2d-84.37298878479616!3d39.20517083634878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88405341be7f395b%3A0xc9898b50adee1b3!2sKenwood+Advanced+Dentistry!5e0!3m2!1sen!2sus!4v1517854106241" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
-    <br>
-    <br>
-
-  <div id="footer"></div>
-
-  <script src='scripts/kenwood_advanced.js'>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "Kenwood Advanced Dentistry",
+    "url": "https://www.kenwoodadvanceddentistry.com/",
+    "image": "https://www.kenwoodadvanceddentistry.com/assets/img/waiting-room.jpg",
+    "telephone": "+1-513-793-3722",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "8040 Hosbrook Road, Suite 230",
+      "addressLocality": "Cincinnati",
+      "addressRegion": "OH",
+      "postalCode": "45236",
+      "addressCountry": "US"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 39.20517, "longitude": -84.37077 },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Thursday"], "opens": "08:00", "closes": "18:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday", "Wednesday"], "opens": "08:00", "closes": "16:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "08:00", "closes": "13:00" }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/Kenwood.Advanced.Dentistry/",
+      "https://www.yelp.com/biz/kenwood-advanced-dentistry-cincinnati"
+    ],
+    "founder": { "@type": "Person", "name": "Michael L. Prater, D.M.D." }
+  }
   </script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
 
-  </body>
+<!-- Icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-tooth" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M7.5 3C5 3 3.5 5 3.5 7.6c0 2 .7 3.6 1.3 5.3.6 1.8.7 3.7 1.2 5.6.4 1.6 1 2.5 1.9 2.5 1.3 0 1.5-2 1.9-3.8.3-1.3.8-2.2 2.2-2.2s1.9.9 2.2 2.2c.4 1.8.6 3.8 1.9 3.8.9 0 1.5-.9 1.9-2.5.5-1.9.6-3.8 1.2-5.6.6-1.7 1.3-3.3 1.3-5.3C20.5 5 19 3 16.5 3c-1.8 0-2.6 1-4.5 1S9.3 3 7.5 3z"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16.5v3a2 2 0 0 1-2.2 2A19.5 19.5 0 0 1 2.5 5.2 2 2 0 0 1 4.5 3h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.4 10.9a16 16 0 0 0 4.7 4.7l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12.3l2.7 2.7L16 9.6"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.8l2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3L2.9 9.5l6.3-.9z"/></symbol>
+    <symbol id="i-crown" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M3 8l4.5 4L12 5l4.5 7L21 8l-2 10H5L3 8z"/><path d="M5.5 21h13"/></symbol>
+    <symbol id="i-implant" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3.5c0-.3.2-.5.5-.5h9c.3 0 .5.2.5.5V6c0 1.1-.9 2-2 2H9a2 2 0 0 1-2-2V3.5z"/><path d="M9.5 8v1.5h5V8M8.5 11.5h7M9 14.5h6M9.5 17.5h5M11 20.5h2"/></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M11 3l1.9 5.6L18.5 10.5l-5.6 1.9L11 18l-1.9-5.6L3.5 10.5l5.6-1.9z"/><path d="M18.5 15.5l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6l8-3z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></symbol>
+    <symbol id="i-smile" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M8 14c1 1.5 2.4 2.3 4 2.3s3-.8 4-2.3"/><path d="M9 9.5h.01M15 9.5h.01" stroke-width="2.4"/></symbol>
+    <symbol id="i-drop" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M12 3c3 4 6 7.4 6 11a6 6 0 0 1-12 0c0-3.6 3-7 6-11z"/><path d="M9.5 15a2.6 2.6 0 0 0 2.5 2.5" stroke-linecap="round"/></symbol>
+    <symbol id="i-pulse" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-7 4 14 3-7h4"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M12 3l9 5-9 5-9-5 9-5z"/><path d="M3 12.5l9 5 9-5M3 17l9 5 9-5" opacity=".7"/></symbol>
+    <symbol id="i-dentures" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 9c0 6.4 3.8 10.5 8.5 10.5S20.5 15.4 20.5 9"/><path d="M3.5 9h17M7.5 9v4M12 9v5M16.5 9v4"/></symbol>
+    <symbol id="i-veneer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7.5 3C5 3 3.5 5 3.5 7.6c0 2 .7 3.6 1.3 5.3.6 1.8.7 3.7 1.2 5.6.4 1.6 1 2.5 1.9 2.5 1.3 0 1.5-2 1.9-3.8.3-1.3.8-2.2 2.2-2.2s1.9.9 2.2 2.2c.4 1.8.6 3.8 1.9 3.8.9 0 1.5-.9 1.9-2.5.5-1.9.6-3.8 1.2-5.6.6-1.7 1.3-3.3 1.3-5.3C20.5 5 19 3 16.5 3c-1.8 0-2.6 1-4.5 1S9.3 3 7.5 3z"/><path d="M7.5 7c.3-1 1-1.5 2-1.5"/></symbol>
+    <symbol id="i-file" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8l-5-5z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></symbol>
+    <symbol id="i-card" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3 10h18M7 15h3"/></symbol>
+    <symbol id="i-cheque" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M7 14h5M7 10h2M15 14h2"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M12 20s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.3a4.3 4.3 0 0 1 7.5 2.5C19.5 15.4 12 20 12 20z"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01" stroke-width="2.2"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="M8.5 13.8L7 21l5-2.5 5 2.5-1.5-7.2"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4a21 21 0 0 0-2.3-.1c-2.3 0-3.9 1.4-3.9 4v2.2H7.8v3h2.6V21h3.1z"/></symbol>
+    <symbol id="i-google" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 12.2a8 8 0 1 1-2.4-5.8"/><path d="M20 12h-7.5"/></symbol>
+    <symbol id="i-yelp" viewBox="0 0 24 24" fill="currentColor"><path d="M12.3 2.6c-.6-.4-4.3.6-5 1.3-.4.4-.4.9-.2 1.3l3.6 6.2c.6 1 2.1.6 2.1-.6V3.6c0-.5-.2-.8-.5-1zM10.6 14.6l-5.2 1.6c-.5.1-.8.5-.7 1 .1.9 1.5 3.4 2.2 3.9.4.3.9.3 1.2 0l3.9-4.1c.8-.8 0-2.2-1.4-2.4zM9.7 12.4L4.7 10c-.5-.2-1 0-1.2.4-.4.9-.6 3.7-.3 4.5.2.5.6.7 1.1.6l5.2-1.2c1.1-.3 1.2-1.6.2-1.9zM14.1 16.1l2.6 4.6c.3.4.8.6 1.2.4.8-.4 2.6-2.6 2.8-3.4.1-.5-.1-.9-.6-1.1L15 15c-.9-.3-1.5.4-.9 1.1zM19.6 10.4c-.3-.9-2.3-3-3.2-3.3-.5-.2-.9 0-1.2.4l-2.8 4.6c-.5.9.4 2 1.4 1.7l5.2-1.6c.5-.2.7-.6.6-1.1z"/></symbol>
+  </defs>
+</svg>
 
+<div class="topbar">
+  <div class="container">
+    <div class="topbar__items">
+      <span><i class="open-dot" data-open-dot></i><span data-open-status>Mon–Fri · Call to schedule</span></span>
+      <span class="topbar__hide-sm"><svg><use href="#i-pin"/></svg>8040 Hosbrook Rd, Suite 230 · Cincinnati</span>
+    </div>
+    <a href="tel:+15137933722"><strong>(513) 793-3722</strong></a>
+  </div>
+</div>
 
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html" aria-label="Kenwood Advanced Dentistry home">
+      <span class="brand__mark"><svg><use href="#i-tooth"/></svg></span>
+      <span class="brand__text">
+        <span class="brand__name">Kenwood</span>
+        <span class="brand__sub">Advanced Dentistry</span>
+      </span>
+    </a>
+
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <ul class="nav__list">
+        <li><a class="nav__link" data-nav="home" aria-current="page" href="index.html">Home</a></li>
+        <li class="nav__item--drop">
+          <a class="nav__link" data-nav="services" href="general.html">Services <svg><use href="#i-chev"/></svg></a>
+          <div class="nav__drop">
+            <a href="general.html"><strong>General &amp; Cosmetic</strong><span>Cleanings, crowns, veneers, whitening &amp; more</span></a>
+            <a href="implant.html"><strong>Implants &amp; Surgical</strong><span>Extraction, grafting &amp; implant restoration</span></a>
+            <a href="general.html#botox-fillers"><strong>Facial Esthetics</strong><span>Botox &amp; Juvéderm dermal fillers</span></a>
+          </div>
+        </li>
+        <li><a class="nav__link" data-nav="patients" href="patient_info.html">Patient Info</a></li>
+        <li><a class="nav__link" data-nav="tour" href="office_tour.html">Office Tour</a></li>
+        <li><a class="nav__link" data-nav="contact" href="contact.html">Contact</a></li>
+      </ul>
+      <a class="btn btn--sm header-cta" href="tel:+15137933722"><svg><use href="#i-phone"/></svg>Book a visit</a>
+    </nav>
+
+    <button class="menu-toggle" aria-label="Open menu" aria-controls="site-nav" aria-expanded="false"><span></span></button>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container hero__grid">
+    <div>
+      <span class="eyebrow reveal">Kenwood · Cincinnati, Ohio</span>
+      <h1 class="reveal" style="--d:.05s">Exceptional dentistry, <em>personally</em> delivered.</h1>
+      <p class="lead reveal" style="--d:.1s">For over two decades, Dr. Michael Prater has cared for Cincinnati families with general, cosmetic and implant dentistry — built on long-term relationships and individualized care.</p>
+      <div class="btn-row reveal" style="--d:.15s">
+        <a class="btn" href="tel:+15137933722"><svg><use href="#i-phone"/></svg>Call (513) 793-3722</a>
+        <a class="btn btn--ghost" href="general.html">Explore services <svg><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="hero__facts reveal" style="--d:.2s">
+        <div class="fact"><strong>20+ yrs</strong><span>Caring for Kenwood</span></div>
+        <div class="fact"><strong>In-house</strong><span>Implant placement</span></div>
+        <div class="fact"><strong>AAFE</strong><span>Certified facial esthetics</span></div>
+      </div>
+    </div>
+
+    <div class="hero__media reveal" style="--d:.1s">
+      <div class="hero__frame">
+        <img src="assets/img/waiting-room.jpg" alt="The bright, welcoming reception area at Kenwood Advanced Dentistry" width="2200" height="1467" fetchpriority="high">
+      </div>
+      <div class="float-card float-card--a">
+        <span class="float-card__icon"><svg><use href="#i-clock"/></svg></span>
+        <div><strong data-open-status>Mon – Fri</strong><span>(513) 793-3722</span></div>
+      </div>
+      <div class="float-card float-card--b">
+        <span class="float-card__icon"><svg><use href="#i-pin"/></svg></span>
+        <div><strong>Across from Kenwood Tower</strong><span>Easy access off I-71</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <span>Dental Implants</span><span>Porcelain Veneers</span><span>Crowns &amp; Bridges</span><span>Professional Whitening</span><span>Botox &amp; Fillers</span><span>Periodontal Therapy</span><span>TMJ Treatment</span><span>Family Dentistry</span>
+    <span>Dental Implants</span><span>Porcelain Veneers</span><span>Crowns &amp; Bridges</span><span>Professional Whitening</span><span>Botox &amp; Fillers</span><span>Periodontal Therapy</span><span>TMJ Treatment</span><span>Family Dentistry</span>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="container split">
+    <div class="photo-stack reveal">
+      <div class="photo-stack__main"><img src="assets/img/front-door.jpg" alt="Office entrance with Michael L. Prater, D.M.D. lettered on the glass" loading="lazy" width="1800" height="1200"></div>
+      <div class="photo-stack__sub"><img src="assets/img/operatory.jpg" alt="Treatment room with window views" loading="lazy" width="1800" height="1200"></div>
+    </div>
+    <div>
+      <span class="eyebrow reveal">Meet your dentist</span>
+      <h2 class="reveal">Care that's <em>advanced</em> — and refreshingly personal.</h2>
+      <p class="lead reveal" style="margin-top:22px">Dr. Prater and his team are committed to providing the highest quality dental care in Cincinnati. He enjoys caring for his patients' health and building long-term relationships that allow him to deliver exceptional, individualized treatment.</p>
+      <ul class="check-list reveal">
+        <li><svg><use href="#i-check"/></svg><span><strong>Full-scope care under one roof</strong> — from cleanings to implant surgery, without the referral runaround.</span></li>
+        <li><svg><use href="#i-check"/></svg><span><strong>Artistry in restorations</strong> — crowns and veneers color-matched to blend seamlessly with your smile.</span></li>
+        <li><svg><use href="#i-check"/></svg><span><strong>Certified by the American Academy of Facial Esthetics</strong> to administer Botox and dermal fillers.</span></li>
+      </ul>
+      <div class="signature reveal">
+        <div class="avatar" aria-hidden="true">MP</div>
+        <div>
+          <div class="signature__name">Michael L. Prater, D.M.D.</div>
+          <div class="signature__role">General &amp; Implant Dentistry</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section section--alt" id="services">
+  <div class="container">
+    <div class="section-head section-head--split">
+      <div>
+        <span class="eyebrow reveal">Our services</span>
+        <h2 class="reveal">Everything your smile needs, <em>in one place.</em></h2>
+      </div>
+      <p class="lead reveal">Preventive care, beautiful cosmetic work and advanced surgical treatment — delivered by a doctor who knows you by name.</p>
+    </div>
+
+    <div class="services-grid">
+      <a class="service-card service-card--feature reveal" href="implant.html">
+        <span class="service-card__icon"><svg><use href="#i-implant"/></svg></span>
+        <h3>Dental Implants</h3>
+        <p>Permanent, natural-feeling tooth replacement — extraction, grafting and placement all done right here in our Kenwood office.</p>
+        <span class="link-arrow">Explore implants <svg><use href="#i-arrow"/></svg></span>
+      </a>
+      <a class="service-card reveal" style="--d:.05s" href="general.html#hygiene">
+        <span class="service-card__icon"><svg><use href="#i-sparkle"/></svg></span>
+        <h3>Hygiene &amp; Exams</h3>
+        <p>More than a cleaning — a complete oral wellness exam including oral cancer screening and periodontal assessment.</p>
+        <span class="link-arrow">Learn more <svg><use href="#i-arrow"/></svg></span>
+      </a>
+      <a class="service-card reveal" style="--d:.1s" href="general.html#crowns-bridges">
+        <span class="service-card__icon"><svg><use href="#i-crown"/></svg></span>
+        <h3>Crowns &amp; Bridges</h3>
+        <p>Porcelain, zirconia and implant crowns crafted to restore strength and blend beautifully with your natural teeth.</p>
+        <span class="link-arrow">Learn more <svg><use href="#i-arrow"/></svg></span>
+      </a>
+      <a class="service-card reveal" href="general.html#veneers">
+        <span class="service-card__icon"><svg><use href="#i-veneer"/></svg></span>
+        <h3>Porcelain Veneers</h3>
+        <p>Thin ceramic shells that transform chipped, stained or misshapen teeth into a bright, natural-looking smile.</p>
+        <span class="link-arrow">Learn more <svg><use href="#i-arrow"/></svg></span>
+      </a>
+      <a class="service-card reveal" style="--d:.05s" href="general.html#whitening">
+        <span class="service-card__icon"><svg><use href="#i-sparkle"/></svg></span>
+        <h3>Teeth Whitening</h3>
+        <p>Custom-fit professional whitening trays that lift years of coffee and tea stains safely and effectively.</p>
+        <span class="link-arrow">Learn more <svg><use href="#i-arrow"/></svg></span>
+      </a>
+      <a class="service-card reveal" style="--d:.1s" href="general.html#botox-fillers">
+        <span class="service-card__icon"><svg><use href="#i-drop"/></svg></span>
+        <h3>Botox &amp; Fillers</h3>
+        <p>Smooth frown lines, crow's feet and folds with quick, non-surgical facial esthetic treatments.</p>
+        <span class="link-arrow">Learn more <svg><use href="#i-arrow"/></svg></span>
+      </a>
+      <a class="service-card reveal" href="general.html#periodontal">
+        <span class="service-card__icon"><svg><use href="#i-shield"/></svg></span>
+        <h3>Periodontal Therapy</h3>
+        <p>Non-surgical scaling, root planing and Arestin treatment to stop gum disease before it spreads.</p>
+        <span class="link-arrow">Learn more <svg><use href="#i-arrow"/></svg></span>
+      </a>
+      <a class="service-card reveal" style="--d:.05s" href="general.html#tmj">
+        <span class="service-card__icon"><svg><use href="#i-pulse"/></svg></span>
+        <h3>TMJ Treatment</h3>
+        <p>Relief for jaw pain, clicking and tension headaches with bite guards and targeted therapy.</p>
+        <span class="link-arrow">Learn more <svg><use href="#i-arrow"/></svg></span>
+      </a>
+      <a class="service-card reveal" style="--d:.1s" href="general.html#childrens">
+        <span class="service-card__icon"><svg><use href="#i-smile"/></svg></span>
+        <h3>Children's Dentistry</h3>
+        <p>We love seeing kids! Gentle, happy first visits that build healthy habits for life.</p>
+        <span class="link-arrow">Learn more <svg><use href="#i-arrow"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- IMPLANTS -->
+<section class="section section--dark">
+  <div class="container">
+    <div class="feature-band">
+      <div>
+        <span class="eyebrow reveal">Implant dentistry</span>
+        <h2 class="reveal">Replace missing teeth <em>for good.</em></h2>
+        <p class="lead reveal" style="margin:22px 0 32px">Whether it's a dental emergency or you're looking for a more effective long-term solution, a dental implant looks, feels and functions just like a natural tooth — and protects the healthy teeth around it.</p>
+        <div class="btn-row reveal">
+          <a class="btn btn--light" href="implant.html">See the implant process <svg><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+      <div class="feature-band__img reveal" style="--d:.1s"><img src="assets/img/imaging.jpg" alt="Panoramic dental imaging equipment in our office" loading="lazy" width="1600" height="1067"></div>
+    </div>
+
+    <div class="steps">
+      <div class="step reveal"><span class="step__num">01</span><h3>Extraction &amp; grafting</h3><p>We gently remove the damaged tooth and graft the site to build a strong, healthy foundation of bone.</p></div>
+      <div class="step reveal" style="--d:.08s"><span class="step__num">02</span><h3>Implant placement</h3><p>Dr. Prater places the implant deep in the bone, where it fuses over several months to become your new root.</p></div>
+      <div class="step reveal" style="--d:.16s"><span class="step__num">03</span><h3>Your new crown</h3><p>A custom implant crown is crafted from impressions of your teeth and secured for a seamless, lasting smile.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="section">
+  <div class="container">
+    <div class="section-head section-head--center">
+      <span class="eyebrow reveal">Patient stories</span>
+      <h2 class="reveal">Words from our <em>patients.</em></h2>
+    </div>
+    <div class="reviews">
+      <figure class="review reveal">
+        <div class="stars" aria-label="5 out of 5 stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+        <blockquote>“Dr. Prater is the best dentist I have ever had and is a true artist in blending my crowns to the rest of my teeth.”</blockquote>
+        <figcaption class="review__who"><span class="avatar">RM</span><div>Russell M.<span>Restorative patient</span></div></figcaption>
+      </figure>
+      <figure class="review reveal" style="--d:.08s">
+        <div class="stars" aria-label="5 out of 5 stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+        <blockquote>“Professional, highly knowledgeable, experienced and congenial. The best dentist I have ever had among the 7 I have had.”</blockquote>
+        <figcaption class="review__who"><span class="avatar">MJ</span><div>Michael J.<span>Long-time patient</span></div></figcaption>
+      </figure>
+      <figure class="review reveal" style="--d:.16s">
+        <div class="stars" aria-label="5 out of 5 stars"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></div>
+        <blockquote>“Great atmosphere and excellent service. If you are looking for a dentist in the Kenwood area… I highly recommend!”</blockquote>
+        <figcaption class="review__who"><span class="avatar">SR</span><div>Scott R.<span>New patient</span></div></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- TOUR -->
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-head section-head--split">
+      <div>
+        <span class="eyebrow reveal">Our office</span>
+        <h2 class="reveal">A calm, modern space <em>with a view.</em></h2>
+      </div>
+      <div class="reveal">
+        <p class="lead">Located across from the Kenwood Tower on I-71, our office was designed to make every visit comfortable — from the moment you walk in.</p>
+        <a class="link-arrow" href="office_tour.html">Take the full office tour <svg><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+    <div class="mosaic">
+      <button class="mosaic__item mosaic__item--wide mosaic__item--tall reveal" data-lightbox data-caption="Reception &amp; waiting room"><img src="assets/img/waiting-room.jpg" alt="Reception and waiting room" loading="lazy"><span class="mosaic__cap">Reception</span></button>
+      <button class="mosaic__item reveal" style="--d:.05s" data-lightbox data-caption="Treatment room"><img src="assets/img/operatory.jpg" alt="Treatment room with window views" loading="lazy"><span class="mosaic__cap">Treatment room</span></button>
+      <button class="mosaic__item mosaic__item--tall reveal" style="--d:.1s" data-lightbox data-caption="Our building at 8040 Hosbrook Road"><img src="assets/img/building.jpg" alt="Office building at 8040 Hosbrook Road" loading="lazy"><span class="mosaic__cap">8040 Hosbrook</span></button>
+      <button class="mosaic__item reveal" style="--d:.15s" data-lightbox data-caption="Digital panoramic imaging"><img src="assets/img/imaging.jpg" alt="Panoramic imaging room" loading="lazy"><span class="mosaic__cap">Imaging</span></button>
+    </div>
+  </div>
+</section>
+
+<!-- INSURANCE -->
+<section class="section section--tight">
+  <div class="container split" style="align-items:start">
+    <div>
+      <span class="eyebrow reveal">Insurance &amp; financing</span>
+      <h2 class="reveal" style="font-size:clamp(1.9rem,3.4vw,2.7rem)">We accept most major <em>PPO plans.</em></h2>
+      <p class="lead reveal" style="margin:18px 0 26px">Plus checks, all major credit and debit cards, and CareCredit dental financing. Our team will help you find the best option on your first visit.</p>
+      <a class="link-arrow reveal" href="patient_info.html">Insurance details &amp; patient forms <svg><use href="#i-arrow"/></svg></a>
+    </div>
+    <div class="logo-cloud reveal" style="--d:.1s">
+      <span class="chip">Delta Dental</span><span class="chip">Aetna <small>PPO</small></span><span class="chip">Cigna</span><span class="chip">MetLife</span><span class="chip">Humana <small>PPO</small></span><span class="chip">Guardian <small>PPO</small></span><span class="chip">Dental Care Plus</span><span class="chip">Medical Mutual</span><span class="chip">Anthem BCBS <small>Employer</small></span><span class="chip">UnitedHealthcare <small>Employer</small></span><span class="chip">GEHA Connection</span><span class="chip">DentaMax</span><span class="chip">Liberty Dental</span><span class="chip">UMR</span><span class="chip">CareCredit</span>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact" style="padding-top:0">
+  <div class="container">
+    <div class="cta-band reveal" style="margin-bottom:clamp(56px,8vw,96px)">
+      <div>
+        <h2>Your healthiest smile <em>starts here.</em></h2>
+        <p>The first step toward a beautiful, healthy smile is scheduling a visit. Give us a call — we'd love to meet you.</p>
+      </div>
+      <div class="btn-row">
+        <a class="btn btn--light" href="tel:+15137933722"><svg><use href="#i-phone"/></svg>(513) 793-3722</a>
+        <a class="btn btn--outline-light" href="patient_info.html#forms">New patient forms</a>
+      </div>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-card reveal">
+        <div class="contact-row"><span class="contact-row__icon"><svg><use href="#i-pin"/></svg></span><div><h4>Address</h4><p>8040 Hosbrook Road, Suite 230<br>Cincinnati, OH 45236</p></div></div>
+        <div class="contact-row"><span class="contact-row__icon"><svg><use href="#i-phone"/></svg></span><div><h4>Phone</h4><a href="tel:+15137933722">(513) 793-3722</a></div></div>
+        <div class="contact-row"><span class="contact-row__icon"><svg><use href="#i-clock"/></svg></span><div style="flex:1"><h4>Hours</h4>
+          <ul class="hours">
+            <li data-day="1"><span>Monday</span><span>8am – 6pm</span></li>
+            <li data-day="2"><span>Tuesday</span><span>8am – 4pm</span></li>
+            <li data-day="3"><span>Wednesday</span><span>8am – 4pm</span></li>
+            <li data-day="4"><span>Thursday</span><span>8am – 6pm</span></li>
+            <li data-day="5"><span>Friday</span><span>8am – 1pm</span></li>
+            <li data-day="6,0" class="is-closed"><span>Saturday – Sunday</span><span>Closed</span></li>
+          </ul>
+        </div></div>
+      </div>
+      <div class="map-wrap reveal" style="--d:.1s">
+        <iframe title="Map to Kenwood Advanced Dentistry" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3091.660128623579!2d-84.37298878479616!3d39.20517083634878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88405341be7f395b%3A0xc9898b50adee1b3!2sKenwood+Advanced+Dentistry!5e0!3m2!1sen!2sus!4v1517854106241"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html" aria-label="Kenwood Advanced Dentistry home">
+          <span class="brand__mark"><svg><use href="#i-tooth"/></svg></span>
+          <span class="brand__text">
+            <span class="brand__name">Kenwood</span>
+            <span class="brand__sub">Advanced Dentistry</span>
+          </span>
+        </a>
+        <p class="footer-blurb">General, cosmetic and implant dentistry from Dr. Michael L. Prater, D.M.D. — caring for Cincinnati smiles for over two decades.</p>
+        <div class="socials">
+          <a href="https://www.facebook.com/Kenwood.Advanced.Dentistry/" target="_blank" rel="noopener" aria-label="Facebook"><svg><use href="#i-facebook"/></svg></a>
+          <a href="https://www.google.com/maps/place/Kenwood+Advanced+Dentistry/@39.2051708,-84.3729888,17z" target="_blank" rel="noopener" aria-label="Google reviews"><svg><use href="#i-google"/></svg></a>
+          <a href="https://www.yelp.com/biz/kenwood-advanced-dentistry-cincinnati" target="_blank" rel="noopener" aria-label="Yelp"><svg><use href="#i-yelp"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="general.html">General &amp; Cosmetic</a></li>
+          <li><a href="implant.html">Implants &amp; Surgical</a></li>
+          <li><a href="patient_info.html">Insurance &amp; Forms</a></li>
+          <li><a href="office_tour.html">Office Tour</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li>8040 Hosbrook Road<br>Suite 230<br>Cincinnati, OH 45236</li>
+          <li><a href="tel:+15137933722">(513) 793-3722</a></li>
+          <li><a href="https://www.google.com/maps/dir/?api=1&amp;destination=8040+Hosbrook+Rd+Suite+230+Cincinnati+OH+45236" target="_blank" rel="noopener">Get directions →</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <ul class="hours">
+          <li data-day="1"><span>Monday</span><span>8am – 6pm</span></li>
+          <li data-day="2"><span>Tuesday</span><span>8am – 4pm</span></li>
+          <li data-day="3"><span>Wednesday</span><span>8am – 4pm</span></li>
+          <li data-day="4"><span>Thursday</span><span>8am – 6pm</span></li>
+          <li data-day="5"><span>Friday</span><span>8am – 1pm</span></li>
+          <li data-day="6,0"><span>Sat – Sun</span><span>Closed</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Kenwood Advanced Dentistry. All rights reserved.</span>
+      <span>Website by Daron Prater</span>
+    </div>
+  </div>
+</footer>
+
+<div class="call-bar">
+  <a href="tel:+15137933722"><svg><use href="#i-phone"/></svg>Call now</a>
+  <a href="https://www.google.com/maps/dir/?api=1&amp;destination=8040+Hosbrook+Rd+Suite+230+Cincinnati+OH+45236" target="_blank" rel="noopener"><svg><use href="#i-pin"/></svg>Directions</a>
+</div>
+</body>
 </html>
