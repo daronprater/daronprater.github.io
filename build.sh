@@ -26,8 +26,8 @@ build index.html        home     "Kenwood Advanced Dentistry | Cincinnati Implan
   "Dr. Michael Prater offers general, cosmetic and implant dentistry in Kenwood, Cincinnati. Crowns, veneers, whitening, Botox and more. Call (513) 793-3722."
 build general.html      services "General and Cosmetic Dentistry | Kenwood Advanced Dentistry" \
   "Cleanings, crowns and bridges, veneers, whitening, inlays and onlays, dentures, gum therapy, TMJ treatment, children's dentistry and Botox in Cincinnati."
-build implant.html      services "Dental Implants in Cincinnati | Kenwood Advanced Dentistry" \
-  "Permanent tooth replacement from extraction and bone grafting to implant placement and crown, all in our Kenwood office. Call (513) 793-3722."
+build implant.html      services "Dental Implants and All-on-4 in Cincinnati | Kenwood Advanced Dentistry" \
+  "Single dental implants and full-arch All-on-4 and All-on-6 implant teeth in our Kenwood, Cincinnati office. A permanent alternative to dentures. Call (513) 793-3722."
 build patient_info.html patients "Insurance, Financing and Patient Forms | Kenwood Advanced Dentistry" \
   "Accepted dental insurance plans, payment options, CareCredit financing and downloadable new patient forms for Kenwood Advanced Dentistry."
 build office_tour.html  tour     "Office Tour | Kenwood Advanced Dentistry" \
